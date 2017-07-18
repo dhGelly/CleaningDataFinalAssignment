@@ -6,7 +6,6 @@ output: html_document
 ---
 
 #  DATA DICTIONARY - tidyData
-==================================================================
 The original dataset had data for train and test purposes: train data and test data. 
 
 Note from original dataset on the features: 
@@ -28,7 +27,7 @@ mad(): Median absolute deviation
 
 In the tidyData the train and test subject ids, and the train and test descriptive activity labels were merged respectivily and in that order.
 The mean of the original features was calculated and placed in the column with the same name of each variable. 
-==================================================================
+
 
 ## Column names of the dataset:
 
