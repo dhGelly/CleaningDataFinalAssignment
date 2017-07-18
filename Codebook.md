@@ -19,12 +19,11 @@ These signals were used to estimate variables of the feature vector for each pat
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 The set of variables that were estimated from these signals are: 
 
-mean(): Mean value
-std(): Standard deviation
-mad(): Median absolute deviation 
+- mean(): Mean value
 
-- Features are normalized and bounded within [-1,1].- 
+- std(): Standard deviation
 
+Features are normalized and bounded within [-1,1].
 In the tidyData the train and test subject ids, and the train and test descriptive activity labels were merged respectivily and in that order.
 The mean of the original features was calculated and placed in the column with the same name of each variable. 
 
