@@ -4,7 +4,7 @@ author: "E Balanou"
 date: "16 July 2017"
 output: html_document
 ---
-=====================================================================
+
 Cleaning and Gathering Data - Coursera - Final Assignemnt on tidyData
 =====================================================================
 Evangelia Balanou
@@ -21,15 +21,15 @@ The dataset includes the following files:
 
 - 'Codebook.md': Where the variables of the resulting tidyData are explained
 
-- 'tidyData.txt': the resulting tidy dataset from the 'run_analysis.R'. Can be loaded with the command     
-                  >> loadTidyData <- read.table("tidyData.txt", header = TRUE)
+- 'tidyData.txt': the resulting tidy dataset from the 'run_analysis.R'. Can be loaded with the command
+                  > loadTidyData <- read.table("tidyData.txt", header = TRUE)
     
     In a tidy data set according to Hadley Wickham's paper <http://vita.had.co.nz/papers/tidy-data.html>
     on tidy data:
     
- - Each variable is saved in each own column
- - Each observation is saved in its own row
- - Each type of observational unit forms a table/file
+      - Each variable is saved in each own column
+      - Each observation is saved in its own row
+      - Each type of observational unit forms a table/file
  
  I chose not to decompose the variable names to X, Y, Z because of the discussion here: 
  <https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/>
@@ -42,7 +42,7 @@ The dataset includes the following files:
  3. Uses descriptive activity names to name the activities in the data set
  4. Appropriately labels the data set with descriptive variable names.
  5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each     activity and each subject. You can load the resulting tidy dataset with the command 
-    >> loadTidyData <- read.table("tidyData.txt", header = TRUE)
+    > loadTidyData <- read.table("tidyData.txt", header = TRUE)
  
 
 
