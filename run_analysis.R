@@ -13,8 +13,6 @@
 # 
 # =========================================================================================
 
-setwd("C:/Users/evang/Documents/DataScienceSpecialization/Course3Cleaning/FinalAssignment")
-
 # libraries
 library(reshape2) # need to access dcast
 
@@ -49,7 +47,6 @@ subFeatures            <- features[grepl( "mean\\(\\)|std\\(\\)", features)]
 subMergedTrainTestData <- mergedTrainTestData[subFeatures]
 
 # 3. Uses descriptive activity names to name the activities in the data set
-library(dplyr)
 
 mergedTrainTestActivities      <- c(trainActivities, testActivities)
 labelMergedTrainTestActivities <- activity_labels[as.numeric(mergedTrainTestActivities)]
